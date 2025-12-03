@@ -73,3 +73,20 @@ uvicorn app:app --reload
 
 After this, the API will be available at http://127.0.0.1:8000/.
 
+
+
+##Usage Example
+
+##Example using curl:
+
+curl -X POST "http://127.0.0.1:8000/predict" \
+     -H "Content-Type: application/json" \
+     -d '{
+           "age": 29,
+           "sex": "male",
+           "bmi": 26.2,
+           "children": 2,
+           "smoker": "no",
+           "region": "southeast"
+         }'
+
