@@ -23,4 +23,15 @@ This project provides a REST API built with FastAPI that allows users to input c
 - Easy to extend: you can retrain the model, update features, or wrap into a larger service.  
 
 ## 📁 Project Structure
+.
+├── app.py # FastAPI application entry point
+├── predict.py # Prediction logic (load model, preprocess input, return premium)
+├── user_input.py # Helper for user input (optional)
+├── requirement.txt # Project dependencies
+├── model.pkl # Pre-trained ML model for prediction
+├── insurance.csv # (Optional) dataset used originally for training
+├── fastapi_ml_model.ipynb # Jupyter notebook with training / model building code
+└── README.md # Project documentation (this file)
+
+
 
