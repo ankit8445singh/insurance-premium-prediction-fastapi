@@ -68,3 +68,8 @@ After this, the API will be available at http://127.0.0.1:8000/.
 
 
 
+## Running the API locally
+uvicorn app:app --reload
+
+After this, the API will be available at http://127.0.0.1:8000/.
+
