@@ -1,3 +1,4 @@
+
 # insurance-premium-prediction-fastapi
 A FastAPI based API for the insurance premium prediction ML project
 
@@ -58,6 +59,12 @@ cd insurance-premium-prediction-fastapi
 # Install dependencies
 pip install -r requirement.txt
 
+
+Running the API locally
+uvicorn app:app --reload
+
+
+After this, the API will be available at http://127.0.0.1:8000/.
 
 
 
