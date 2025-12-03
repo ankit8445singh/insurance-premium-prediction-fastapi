@@ -41,4 +41,23 @@ This project provides a REST API built with FastAPI that allows users to input c
 └── README.md # Project documentation (this file)
 
 
+## Installation & Setup
+
+### Prerequisites
+
+- Python 3.7 or newer  
+- `pip` installed  
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ankit8445singh/insurance-premium-prediction-fastapi.git
+cd insurance-premium-prediction-fastapi
+
+# Install dependencies
+pip install -r requirement.txt
+
+
+
 
